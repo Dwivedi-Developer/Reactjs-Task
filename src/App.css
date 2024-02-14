@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+@media (min-width : 380px )and ( max-width:850px){
+
+.main-container{
+  width: 750px;
+}
+nav{
+  width: 750px;
+  justify-content: center;
+  margin-left: 24px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav>img{
+  padding-left: 50px;
+}
+.mini-nav img ,.btn1 ,form{
+   display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#basic-nav-dropdown{
+  display: none;
+}
+.mobile-nav img{
+  display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mobile-nav{
+  gap: 20px;
+  scale: 1.8;
+  padding-right: 50px;
+}
+
+.cont{
+  margin-top: 25px;
+  width: auto;
+  flex-direction: column;
+  height: 1300px;
+  padding: 32px 24px;
+  align-items: center;
+ margin-left: 24px;
+ }
+ .about{
+  margin-top: -60px;
+ }
+.right-section{
+  margin-top: 60px;
+  scale: 1.3;
+  height: auto;
+}
+
+.right-section >div{
+ 
   display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 25px;
+  
+}
+
+.right-section>form>button{
+margin-bottom: 40px;
+}
+
+.right-section >form>img{
+ scale: 1.25;
+  display: block;
+ 
+}
+
+.left-section{
+  height: auto;
+}
+
+.left-section >img{
+  display: none;
+}
+
+.wrapper{
+  width: 755px;
+  height: 1200px;
+  margin-left: 24px;
+}
+
+.cards-container{
+  width: auto;
+ flex-direction: column;
+ flex-wrap: nowrap;
+ margin-left: 24px;
+
+}
+.card{
+  align-items: center;
+}
+
+.person{
+ width: auto;
+ margin-left: 30px;
+}
+  
+.testimonial{
+ margin:0 auto;
+  width: auto;
+}
+
+.testimonial-content{
+  width: auto;
+  align-items: center;
+}
+
+
+.testimonial-content p{
+  width: auto;
+}
+
+
+.music-part{
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.audio-box{
+  width: 500px;
+  gap: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.bar{
+  width: 123px;
+}
+
+.foot-img{
+  width: auto;
+  padding: 0 24px;
+  margin: auto;
+ 
+}
+.foot-img>img{
+  width: 752px;
+}
+
+.footer{
+  width: auto;
+  padding: 24px;
+}
+
+
+.foot-item{
+  width: auto;
+  flex-direction: column;
+  align-items: start;
+}
+
+.end{
+  width: auto;
+}
+
+.social-img{
+ margin: 20px 0;
+width: 700px;
+ justify-content: space-around;
+}
+.social-input>input{
+  width: 600px;
+  margin-left: 20px;
+}
+.social-input span{
+  left: 563px;
+}
+
 }
